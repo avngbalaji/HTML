@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marksheet - 2</title>
+</head>
+<body>
+    <h1>Student Marksheet - 2</h1>
+<form action="" name="form1">
+    <table border="1px">
+        <tr>
+            <td>Student Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Student Class</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Student RegNo</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Student Marks</td>
+        </tr>
+        <tr>
+            <td>Tamil</td>
+            <td><input type="text" name="tamil"></td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td><input type="text" name="english"></td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td><input type="text" name="maths"></td>
+        </tr>
+        <tr>
+            <td>Allied</td>
+            <td><input type="text" name="allied"></td>
+        </tr>
+        <tr>
+            <td>Major</td>
+            <td><input type="text" name="major"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" name="calculate" value="Calculate" onclick="Calc()">
+            </td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td><input type="text" name="total"></td>
+        </tr>
+        <tr>
+            <td>Average</td>
+            <td><input type="text" name="average"></td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td><input type="text" name="result"></td>
+        </tr>
+        <tr>
+            <td>Grade</td>
+            <td><input type="text" name="grade"></td>
+        </tr>
+    </table>
+</form>
+<script>
+    function Calc(){
+        var m1,m2,m3,m4,m5, total=0, average=0, result="". grade="";
+        m1=document.form1.tamil.value=tamil;
+        m2=document.form1.english.value=english;
+        m3=document.form1.maths.value=maths;
+        m4=document.form1.allied.value=allied;
+        m5=document.form1.major.value=major;
+        total=m1+m2+m3+m4+m5;
+        average=total/5;
+
+        if (m1<35||m2<35||m3<35||m4<35||m5<35){
+            result="Fail";
+            grade="F";
+        }
+
+        else if (average>=85 && average<=70){
+            result="First Class";
+            grade="A";
+        }
+        else if (average>=70 && average<=60){
+            result="Second Class";
+            grade="B";
+        }
+        else if (average>=60 && average<=45){
+            result="Pass";
+            grade="C";
+        }
+        else if (average>=45 && average<=35){
+            result="Just Pass";
+            grade="D";
+        }
+
+        document.form1.total.value=total;
+        document.form1.average.value=average;
+        document.form1.result.value=result;
+        document.form1.grade.value=grade;
+        
+
+    }
+</script>
+</body>
+</html>

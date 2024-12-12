@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheet - 1</title>
+
+    <style>
+
+        h1{
+            text-align: center;
+        }
+
+        .box{
+            height: 200px;
+            width: 450px;
+            background-color: aquamarine;
+            color: crimson;
+            margin: 30px auto;
+            padding: 50px;
+        }
+
+        span{
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 200px;
+            animation: blink 2s linear infinite;
+        }
+
+        @keyframes blink{
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Cascading Style Sheet - 1</h1>
+    <div class="box">
+        <span><marquee behavior="" direction="">Welcome</marquee></span>
+    </div>
+</body>
+</html>
