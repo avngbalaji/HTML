@@ -1,0 +1,15 @@
+/* Universal Selector */
+*{
+    font-family: cursive;
+}
+
+/* tags */
+h1{
+    color: darkturquoise;
+}
+h2{
+    color: rgb(91, 91, 189);
+}
+p{
+    color: rgb(4, 66, 13);
+}
