@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style5.css">
 </head>
 <body>
+
+    <!-- table -->
+
     <table>
         <thead>
             <tr>
@@ -37,5 +40,28 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- forms -->
+
+    <h2>Contact Me</h2>
+    <form action="">
+        <label for="name">Name : </label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email : </label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="mob">Mobile : </label><br>
+        <input type="number" id="mob" placeholder="Enter your mobile no."><br><br>
+
+        <input type="submit" onclick="this.form.reset(); return false">
+        <!-- avoid refreshing -->
+    </form>
+
+    <br><br>
+
+    <!-- iframe -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yE560j3AK3A?si=NuPXsvASYd-ZbTPh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
