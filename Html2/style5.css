@@ -1,0 +1,13 @@
+/* thead tr th:first-child{
+    width: 20%;
+} */
+thead tr th:nth-child(2){
+    width: 80%;
+}
+th,td{
+    border: 3px solid blue;
+}
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
