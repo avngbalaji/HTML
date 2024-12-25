@@ -1,0 +1,98 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ParagraphStyle1{
+    color: #333333;/*Dark Gray*/
+    font-size: 18px;/*Slightly smaller for readability*/
+    font-family: 'Georgia', serif;/*Professional serif font*/
+    line-height: 1.6;/*Proper line spacing*/
+    text-align: justify;/*Align text for a clean, professional look*/
+    background-color: #f9f9f9;/*Light gray background for contrast*/
+    padding: 10px;/*Add padding for better spacing*/
+    border-left: 4px solid #007BFF;/*Blue border for accent*/
+}
+
+.ParagraphStyle2{
+    color: #2c3e50;/*Dark, elegant color*/
+    font-size: 16px;/*Optimal font size for readability*/
+    font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;/*Modern, clean font*/
+    line-height: 1.8;/*More spacious line height for better legibility*/
+    text-align: justify;/*Justified text for a neat, aligned appearance*/
+    background-color: #ecf0f1;/*Light, soft background for contrast*/
+    padding: 15px 20px;/*Increased padding for more space*/
+    border-radius: 8px;/*Rounded corners for a smoother look*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*Soft shadow for depth*/
+    margin: 20px 0;/*Margin for spacing between elements*/
+    word-wrap: break-word;/*Ensures long words break and wrap to the next line*/
+}
+
+.ParagraphStyle3{
+    color: #2c3e50;/*Dark gray color for a professional and clean look*/
+    font-size: 16px;/*Standard readable size for paragraphs*/
+    font-family: 'Arial', sans-serif;/*Clean and modern font*/
+    line-height: 1.6;/*Improved readability with increased line spacing*/
+    text-align: justify;/*Justify text for neat alignment*/
+    margin-top: 20px;/*Space above the paragraph*/
+    margin-bottom: 20px;/*Space below the paragraph*/
+    padding: 10px;/*Padding around the paragraph for some breathing space*/
+    background-color: #f4f6f7;/*Light background color to make the text stand out*/
+    border-left: 5px solid #3498db;/*Add a subtle blue left border for emphasis*/
+}
+
+.FooterStyle{
+    background-color: #2c3e50;/*Dark background for a professional look*/
+    color: #ecf0f1;/*Light text for contrast*/
+    font-family: 'Arial', sans-serif;/*Clean sans-serif font*/
+    font-size: 14px;/*Smaller font size for footer text*/
+    text-align: center;/*Center-align text*/
+    padding: 20px;/*Adequate padding for a clean layout*/
+    position: relative;/*Allows absolute positioning of elements inside*/
+    bottom: 0;
+    width: 100%;/*Ensures footer span the full width of the page*/
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);/*Soft shadow on top for depth*/
+}
+
+.H1Style{
+    color: #2c3e50;/*Dark blue-gray color for a strong, professional look*/
+    font-size: 36px;/*Large font size for emphasis*/
+    font-family: 'Arial', sans-serif;/*Clean and modern sans-serif font*/
+    text-align: center;/*Center-align text*/
+    font-weight: 700;/*Bold font weight for prominence*/
+    line-height: 1.3;/*Adjust line height for better spacing*/
+    letter-spacing: 1px;/*Add slight space between letters for a polished effect*/
+    margin-top: 20px;/*Add space above the heading*/
+    margin-bottom: 20px;/*Add space below the heading*/
+}
+
+.H2Style{
+    color: #34495e;/*Darker gray-blue for a subtle yet professional look*/
+    font-size: 28px;/*Slightly smaller than H1 for a clear hierarchy*/
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;/*Modern, sans-serif*/
+    font-weight: 600;/*Semi-bold font weight for emphasis*/
+    text-align: center;/*Center-align the text for balance*/
+    line-height: 1.4;/*Increased line height for readability*/
+    margin-top: 20px;/*Spacing above the heading*/
+    margin-bottom: 15px;/*Spacing below the heading*/
+    letter-spacing: 0.5px;/*Slight letter spacing for clarity*/
+    text-transform: capitalize;/*Capitalize the first letter of each word*/
+}
+
+.DivStyle1{
+    background-color: #f2f2f2;/*Soft grey background*/
+    padding: 30px;/*Padding around the content*/
+    border-radius: 12px;/*Rounded corners*/
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);/*Subtle shadow*/
+    margin-top: 30px;/*Space above*/
+    margin-bottom: 30px;/*Space below*/
+    width: 20%;/*Limit the width of the div to 50%*/
+    margin-left: left;/*Center the div horizontally*/
+    margin-right: left;/*Center the div horizontally*/
+    transition: all 0.3s ease;/*Smooth transition for hover effect*/
+}
+
+.DivStyle1:hover{
+    background-color: #b3d8ff;/*Slightly darker blue on hover*/
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);/*Stronger shadow on hover*/
+    transform: scale(1.02);/*Slightly enlarge on hover*/
+}
